@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="24px"
+   viewBox="0 -960 960 960"
+   width="24px"
+   fill="#e8eaed"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="forklift.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="27.6036"
+     inkscape:cx="11.991189"
+     inkscape:cy="11.991189"
+     inkscape:window-width="1477"
+     inkscape:window-height="1064"
+     inkscape:window-x="244"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M160-120q-50 0-85-35t-35-85q0-26 10-49.5T80-330v-190h80v-240h320l188 443q6 14 9 28t3 29q0 58-41 99t-99 41q-41 0-75.5-21.5T413-200H273q-13 36-44 58t-69 22Zm560-40v-640h80v560h120v80H720Zm-560-40q17 0 28.5-11.5T200-240q0-17-11.5-28.5T160-280q-17 0-28.5 11.5T120-240q0 17 11.5 28.5T160-200Zm380 0q25 0 42.5-17.5T600-260q0-25-17.5-42.5T540-320q-25 0-42.5 17.5T480-260q0 25 17.5 42.5T540-200Zm-267-80h128q2-11 4.5-20.5T413-320h-90L206-440h-46v80q38 0 69 22t44 58Zm84-120h189L427-680H240v160l117 120Zm-34 80-18.5-19q-18.5-19-40-41.5t-40-41L206-440h-46 46l117 120h90-90Z"
+     id="path1"
+     style="fill:#000000" />
+</svg>
