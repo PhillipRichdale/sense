@@ -1,0 +1,82 @@
+Sound
+Anim (Animation)
+Map (Board)
+	MapAction
+	MapDisplayGrid
+		Indicator
+			(StrikeRange, MoveRange, ActionRange, ScanRange,
+			Unitnumber, Status, Marker)
+		Border, VerticalCenterAxis
+	MapTheme
+		(RockyMountain, StoneHenge, HillDale, JoshuaTree,
+		SteelCity)
+Theme
+	ColdSnow, HotSun, JungleMoist, Standard
+Hex (radius = 1,232, half height=1)
+	HexAnimation/HexEffect
+		(geisirVent, fireVent, avalanche, sandworm, earthquake, vines,
+		lightning, quicksand, flow, idle)
+	HexHeightLevel
+		(-2,-1,0,1,2)
+	Hextype
+		(Normal1, Normal2, Normal3, Normal4, Wall1Side, Wall2Side,
+		Wall3Side, Canyon, Tunnel, Lava, Water, Geisir, Firehole,
+		Quicksand, Sandworm, Plants)
+Unit
+	UnitClass
+		(Bot, Scout, Assault, Heavy, Juggernaut)
+	UnitMovements
+		(turnRight, turnLeft, stepUp, stepDown,
+		forward, fireStraight, fireBalistic, kick,
+		budge, explode, idle)
+	UnitTemplate
+	Individual
+
+Equipment
+	EquipTypes
+		(Weapon, Perk, Dispense, Bullet)
+		WeaponTypes
+			(Laserrifle, Plasmablaster, Rocketlauncher,
+			Mortar, Leapmortar)
+		Perktypes
+			(Welder, Saw, Shield, Flygear(Jets,
+			Propeller), Swimgear, "Snowchains"
+		DispenseTypes
+			(Botpack, Minepack, Sensorpack, Repair1,
+			Repair2)
+		BulletTypes
+			(Laserbeam, Plasmaray, Rocket, Mortargrenade,
+			Mine, Bot(s. Units!))
+
+ Movement
+ Action
+ 	ActionPoints
+ Phase
+ Turn
+ Round
+ Match
+ Game
+	Multiplayer
+	Recording
+View
+	StartupMenu
+	Setup
+	Ingame
+	ReplayUI
+	BriefingView.editable(false) (campaign)
+	BriefingView.editabla(true)  (multiplayer teamplay)
+
+(Network Connection)
+AI
+
+Assemblypoints
+Army
+	ArmyType
+		(Shigeto, Avani, Bully, Skippy)
+	ArmyTemplate
+Ruleset
+	LastMan, Assault, War
+Time
+	IndividualTime
+	TurnTime
+Stats

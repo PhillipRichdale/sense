@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+	--default-tile-size: 120px;
+	--default-shift: 60px;
+}
+.board {
+	position: relative;
+	overflow: auto;
+	padding-left: var(--default-tile-size);
+	padding-right: var(--default-tile-size);
+	background-color: #1c1f27;
+}
+.sensemap {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	flex-wrap: nowrap;
+	overflow-y: hidden;
+	overflow-x:auto;
+}
+.rows {
+	float: left;
+	max-height: var(--default-tile-size);
+	position: relative;
+}
+.tile {
+	position: relative;
+	float: left;
+	border: #9ca3af 1px solid;
+	color: white;
+	font-weight: bold;
+	font-family: serif;
+	width: var(--default-tile-size);
+	height: var(--default-tile-size);
+	max-width: var(--default-tile-size);
+	min-width: var(--default-tile-size);
+	max-height: var(--default-tile-size);
+	min-height: var(--default-tile-size);
+}
+.invisible {
+	border: none;
+}
+.shift {
+	padding-left: var(--default-shift);
+}

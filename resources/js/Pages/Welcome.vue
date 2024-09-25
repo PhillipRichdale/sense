@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
+import TextInput from "@/Components/TextInput.vue";
 
 defineProps<{
     canLogin?: boolean;
