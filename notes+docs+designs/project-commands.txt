@@ -1,0 +1,4 @@
+php artisan inertia:start-ssr
+npm run dev
+npm artisan serve
+npm watch
