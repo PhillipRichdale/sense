@@ -1,4 +1,5 @@
 php artisan inertia:start-ssr
+nvm use default
 npm run dev
 npm artisan serve
 npm watch

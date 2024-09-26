@@ -47,3 +47,6 @@
 .shift {
 	padding-left: var(--default-shift);
 }
+span.tile-id {
+	text-transform: uppercase;
+}
